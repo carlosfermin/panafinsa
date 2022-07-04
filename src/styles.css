@@ -1,0 +1,83 @@
+@font-face {
+  font-display: swap;
+  font-family: DarwinPro-Light;
+  src: url("./fonts/DarwinPro-Light.otf") format("opentype");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: DarwinPro-Regular;
+  src: url("./fonts/DarwinPro-Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: DarwinPro-SemiBold;
+  src: url("./fonts/DarwinPro-SemiBold.otf") format("opentype");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: DarwinPro-Bold;
+  src: url("./fonts/DarwinPro-Bold.otf") format("opentype");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: DarwinPro-Thin;
+  src: url("./fonts/DarwinPro-Thin.otf") format("opentype");
+}
+
+body {
+  font-family: DarwinPro-Light;
+  color: #5c5c60;
+}
+
+.texto-panafinsa {
+  font-family: DarwinPro-Light;
+  color: #5c5c60;
+  font-size: 16px;
+}
+
+
+/***** Footer *****/
+footer {
+  background-image: url("./images/assets/footer-background.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top: 1px solid #dee2e6 !important;
+
+}
+
+.footer-title {
+  font-size: 24px;
+  color: #1f2b4d;
+  font-family: DarwinPro-SemiBold;
+}
+
+.footer-subtitle {
+  font-size: 21px;
+  color: #1f2b4d;
+  font-family: DarwinPro-SemiBold;
+  /* font-family: DarwinPro-Light; */
+}
+
+.footer-icon {
+  max-width: 65px;
+}
+
+.footer-text {
+  font-size: 16px;
+}
+
+
+@media (max-width: 575.98px) {
+  .texto-panafinsa {
+    font-size: 14px;
+  }
+
+  .banner-panafinsa .carousel-text {
+    font-size: 18px;
+  }
+}
